@@ -11,6 +11,7 @@ public class imaginaryTasks {
         Task eatPork = new Task("Eat Pork", 10);
         Task doMath = new Task("Do Math", 8);
         Task singAwfully = new Task("SingAwfully", 9);
+        Task trainTillDeath = new Task("8 hours leg day", 7);
 
 
         list.add(codetask);
@@ -21,6 +22,7 @@ public class imaginaryTasks {
         list.add(eatPork);
         list.add(doMath);
         list.add(singAwfully);
+        list.add(trainTillDeath);
     }
 
 
