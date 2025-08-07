@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Task {
 
     private String name;
@@ -8,6 +10,9 @@ public class Task {
         this.time = time;
         if(time > 24){
             this.time = 24;
+        }
+        if(time < 0){
+            this.time = 0;
         }
     }
 
@@ -20,6 +25,9 @@ public class Task {
         if(time > 24){
             this.time = 24;
         }
+        if(time < 0){
+            this.time = 0;
+        }
     }
 
     public String getName(){
@@ -28,6 +36,11 @@ public class Task {
 
     public int getTime(){
         return time;
+    }
+
+    @Override
+    public String toString(){
+        return name + " " + time + "\n";
     }
 
 
