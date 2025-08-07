@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Task {
+public class Task implements Comparable<Task> {
 
     private String name;
     private int time;
@@ -43,5 +43,9 @@ public class Task {
         return name + " " + time + "\n";
     }
 
-
+    @Override
+    public int compareTo(Task o) {
+        int timeCompare = Integer.compare(this.time, o.getTime());
+        return timeCompare;
+    }
 }

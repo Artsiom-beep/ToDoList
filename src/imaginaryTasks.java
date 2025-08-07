@@ -8,9 +8,9 @@ public class imaginaryTasks {
         Task learnEnglish = new Task("Learn English", 11);
         Task playCS2 = new Task("Play CS2", 22);
         Task takeShower = new Task("Take Shower", 20);
-        Task eatPork = new Task("Eat Pork", 25);
+        Task eatPork = new Task("Eat Pork", 10);
         Task doMath = new Task("Do Math", 8);
-        Task singAwfully = new Task("SingAwfully", 0);
+        Task singAwfully = new Task("SingAwfully", 9);
 
 
         list.add(codetask);
